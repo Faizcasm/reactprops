@@ -1,0 +1,52 @@
+*{
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+.card {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .card-item {
+    background-color: black;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 2px solid;
+    color: white;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to right, #ff7e5f, #feb47b);
+    animation: animation 2s forwards 1s infinite ease-in;
+  }
+  @keyframes animation {
+    0%{
+      border-image-source: linear-gradient(to right, #ff7e5f, #feb47b);
+    }
+    50%{
+      border-image-source: linear-gradient(to right, red, blue);
+    }
+    75%{
+      border-image-source: linear-gradient(to right, purple, pink);
+    }
+    100%{
+      border-image-source: linear-gradient(to right, brown, green);
+    }
+  }
+  .card img{
+    width: 200px;
+    height: 200px;
+  }
