@@ -14,4 +14,4 @@ This project includes a reusable Card component that displays information passed
 ## Links
 
 - [Deployed Site on Netlify](https://harmonious-horse-99a9ba.netlify.app)
-- [GitHub Repository](https://github.com/your-username/your-repo)
+- [GitHub Repository](https://github.com/Faizcasm/reactprops.git)
