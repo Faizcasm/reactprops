@@ -16,4 +16,6 @@ This project includes a reusable Card component that displays information passed
 - [Deployed Site on Netlify](https://harmonious-horse-99a9ba.netlify.app)
 - [GitHub Repository](https://github.com/Faizcasm/reactprops.git)
 
-Task 22 Netlify site (https://gorgeous-cobbler-d9196c.netlify.app)
+
+- [Task 22 Netlify site](https://earnest-khapse-f07a8a.netlify.app/)
+
